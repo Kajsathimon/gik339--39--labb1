@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const checkbox = document.getElementById("divStyle"); //deklarerar varabeln checkbox med const och hämtar med id divStyle
 
 console.log(checkbox); //ger output om checkboxen till konsolen
@@ -46,14 +46,4 @@ button[0].addEventListener("click", function () {
 });
 
 
-=======
-const checkbox = document.getElementById('divStyle');
 
-console.log(checkbox);
-
-const textfields = document.querySelectorAll('.textfield');
-
-console.log(textfields);
-
-const button = document.getElementsByTagName('button');
->>>>>>> ab034d74baa3dcf8b46c4656601459aeedd83bb8
