@@ -1,10 +1,11 @@
+<<<<<<< HEAD
 const checkbox = document.getElementById("divStyle"); //deklarerar varabeln checkbox med const och hämtar med id divStyle
 
 console.log(checkbox); //ger output om checkboxen till konsolen
 
-const textfields = document.querySelectorAll(".textfield");
+const textFields = document.querySelectorAll(".textfield");
 
-console.log(textfields); //plural på grund av queryselectorall
+console.log(textFields); //plural på grund av queryselectorall
 
 const button = document.getElementsByTagName("button");
 
@@ -33,8 +34,8 @@ checkbox.addEventListener("change", function () {
     }
 });
 
-//Eventlyssnare för textfields
-textfields.forEach(function (textfield) {
+//Eventlyssnare för textFields
+textFields.forEach(function (textfield) {
   textfield.addEventListener("input", handleEvent);
   textfield.addEventListener("blur", handleEvent);
 });
@@ -45,3 +46,14 @@ button[0].addEventListener("click", function () {
 });
 
 
+=======
+const checkbox = document.getElementById('divStyle');
+
+console.log(checkbox);
+
+const textfields = document.querySelectorAll('.textfield');
+
+console.log(textfields);
+
+const button = document.getElementsByTagName('button');
+>>>>>>> ab034d74baa3dcf8b46c4656601459aeedd83bb8
